@@ -14,13 +14,18 @@ The e.GO life is generating, collecting and processing serveral data per second.
 
 The delivery of the project will mainly be via Github. There you can upload your files. Additionally, we will need a documentation of your work. This should include:
 
-* Your names
-* The title of your project
+* Your names: Dominik Bißlich, Jan-Philip Erdmann, Philine Lichtenberg, Thomas Bangert, Philipp Heisenberger
+* The title of your project: e.CO:mobility
 * A description of 
   * What the project can do/is supposed to do
-  * Which problem it solves
-  * How you implemented this technically
-  * Which data you are using
+  We worked nearly 32 hours straight to get the best solution for the future of e.Go and e.Go Digital. Our aim was to achieve
+  a new, great e.Co system around the e.Go Life, e.Go Moover and e.Go Kart and, maybe in the future the e.Go Scooter.
+  We used the Seamless Mobility concept to develop different services and business models. Concepts like gamification were 
+  integrated in our small backend application. We also build a mockup APP to present the UX and UI look and feel. 
+  We manly use the supplied data with a small extensions regarding the available sensor data. The calculated gamification 
+  score is shown on the infotainment screen. We prepared a documentation presentation where you can find further information 
+  about our project.
+  
 * Also think about adding screenshots and pictures
 * Feedback sheet
 
