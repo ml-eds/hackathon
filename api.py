@@ -8,7 +8,7 @@ api = {'battery_charging': 'no', 'battery_charging_current': 35, 'battery_health
        'power_consumption': 28, 'rain_sensor': 'rain', 'rear_running_lights': 'on', 'side_lights': 'on', 'speed': 200,
        'stop_lights': 'on', 'temperature_inside': 24, 'temperature_outside': 10, 'tire_pressure_back_left': 3, 'tire_pressure_back_right': 3,
        'tire_pressure_front_left': 3, 'tire_pressure_front_right': 3, 'trunk': 'open', 'turn_signal_left': 'on', 'turn_signal_right': 'on',
-       'warning_blinker': 'on', 'weight': 1200, 'windshield_wipers': 'off', 'wiping_water_level': 100}
+       'warning_blinker': 'on', 'weight': 1200, 'windshield_wipers': 'off', 'wiping_water_level': 100, 'seatheating': 'on'}
 
 def get():
     return api

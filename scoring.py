@@ -1,20 +1,28 @@
-import requests
-
-api_token = '6fec5bff-a4be-4912-b67d-2f60c08d1893'
-api_url_base = 'http://ego-vehicle-api.azurewebsites.net/api/v1/vehicle'
-
-response = requests.get(api_url_base)
-
-print(response.status_code)
-# Headers is a dictionary
-print(response.headers)
-# Get the content-type from the dictionary.
-#print(response.headers["content-type"])
+import user_profile
+import api
+import vehicle
+score_values = {'turn_without_blinker': 5, 'seatheating': 2, 'no_belt': 10, 'no_hands_on_wheel': 10, 'max_accel': 5,
+                'speeding': 5, 'low friction': 2, 'eco_mode_on': 5, 'return_to_station': 10, 'recharge': 10, 'passenger>1': 5, 'recup_break': 2}
 startscore = 1000
-breaks = 0
-acceleration = 0
-steering = 0
-distance_to_object = 0
-distancetravel  = 0
-powerconsumption = 0
+score = 1000
 
+def get_score():
+    return score
+
+def increase_score(key):
+    for k in score_values:
+        if key == k:
+            score + score_values[k]
+
+def decrease_score(value):
+    for k in score_values:
+        if key == k:
+            score - score_values[k]
+
+#def update_api(key, value):
+#    if key in vehicle.v_api:
+#        vehicle.set_key(key, value)
+
+
+increase_score('eco_mode_on')
+print(score)
